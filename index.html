@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIGC课程代码仓库</title>
+
+<style>
+body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-left: 5px solid #4e73df;
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #f0f2f5;
+}
+
+a {
+    color: #4e73df;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #222;
+    color: white;
+    margin-top: 60px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🦜 AIGC课程代码仓库</h1>
+    <p>生成式深度学习教学与实践平台</p>
+</header>
+
+<section>
+
+<div class="card">
+<h2>📖 参考图书</h2>
+<p>
+O’Reilly 出版图书《Generative Deep Learning: Teaching Machines to Paint, Write, Compose and Play》（第二版）
+</p>
+<p>
+<a href="https://www.oreilly.com/library/view/generative-deep-learning/9781098134174/" target="_blank">
+O’Reilly 官方链接
+</a>
+</p>
+<img src="img/book_cover.png" width="250">
+</div>
+
+<div class="card">
+<h2>🪶 课程列表</h2>
+
+<table>
+<tr>
+<th>序号</th>
+<th>内容</th>
+<th>参考代码</th>
+</tr>
+
+<tr><td>1</td><td>AIGC概述</td><td>无</td></tr>
+<tr><td>2</td><td>深度学习与概率论基础</td><td><a href="./notebooks/02_deeplearning">deeplearning</a></td></tr>
+<tr><td>3</td><td>VAE</td><td><a href="./notebooks/03_vae">vae</a></td></tr>
+<tr><td>4</td><td>GAN</td><td><a href="./notebooks/04_gan">gan</a></td></tr>
+<tr><td>5</td><td>Diffusion</td><td><a href="./notebooks/08_diffusion">diffusion</a></td></tr>
+<tr><td>6</td><td>自回归模型</td><td><a href="./notebooks/05_autoregressive">autoregressive</a></td></tr>
+<tr><td>7</td><td>大语言模型</td><td><a href="./notebooks/09_transformer">transformer</a></td></tr>
+<tr><td>8</td><td>多模态大语言模型</td><td>无</td></tr>
+<tr><td>9</td><td>视觉生成模型</td><td>无</td></tr>
+<tr><td>10</td><td>AIGC模型的安全与伦理问题</td><td>无</td></tr>
+<tr><td>11</td><td>课程项目展示与评估</td><td>无</td></tr>
+
+</table>
+</div>
+
+<div class="card">
+<h2>🚀 快速开始</h2>
+<p>
+安装教程见 <a href="./doc">安装操作手册</a>
+</p>
+
+<h3>Kaggle API 使用步骤</h3>
+<ol>
+<li>注册 Kaggle 账号</li>
+<li>进入 Account 页面</li>
+<li>点击 Create API Token</li>
+<li>下载的 kaggle.json 放入 ~/.kaggle 目录</li>
+</ol>
+</div>
+
+<div class="card">
+<h2>📦 数据下载</h2>
+<p>运行以下命令下载数据集：</p>
+<pre>
+python scripts/download.py faces 
+[faces, bricks, recipes, flowers, wines, cellosuites, chorales]
+</pre>
+</div>
+
+<div class="card">
+<h2>📦 课程大作业考核要求</h2>
+
+<h3>📌 项目目标</h3>
+<p>基于深度神经网络设计并实现创新型 AIGC 应用。</p>
+
+<h3>👥 组织形式</h3>
+<ul>
+<li>每组 5–6 人</li>
+</ul>
+
+<h3>✅ 基本要求</h3>
+<ul>
+<li>必须基于 GAN / VAE / Diffusion 等模型</li>
+<li>提交完整代码、模型文件和运行说明</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>🌐 可视化与交互要求</h2>
+<ul>
+<li>需具备可交互网页界面</li>
+<li>生成结果可展示</li>
+<li>提供处理前后对比</li>
+<li>提供应用操作视频</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🎤 汇报与答辩</h2>
+<ul>
+<li>第八周验收</li>
+<li>8分钟汇报 + 2分钟答辩</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>📄 课程报告要求</h2>
+<ul>
+<li>项目背景与意义</li>
+<li>模型设计与技术方案</li>
+<li>实验与结果分析</li>
+<li>成员分工与工作量占比</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>💡 候选项目方向</h2>
+<ul>
+<li>🎨 个性化服装设计生成系统</li>
+<li>🖼️ 艺术风格迁移网页</li>
+<li>📷 老照片修复系统</li>
+<li>🎵 AI音乐生成系统</li>
+<li>🏠 文本生成室内设计系统</li>
+<li>📚 AI小说续写系统</li>
+<li>🧑‍🎨 多模态艺术创作平台</li>
+</ul>
+</div>
+
+</section>
+
+<footer>
+AIGC课程 © 2026 | Generative AI Teaching Platform
+</footer>
+
+</body>
+</html>
