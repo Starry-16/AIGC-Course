@@ -13,7 +13,7 @@ O’Reilly 出版图书 《Generative Deep Learning: Teaching Machines to Paint,
 | 序号 | 内容 | 参考代码 |
 |:----:|:----:|:----:|
 | 1 | AIGC概述 | 无 |
-| 2 | 深度学习与概率论基础 | [deeplearning](./AIGC-Course/notebooks/02_deeplearning) |
+| 2 | 深度学习与概率论基础 | [deeplearning](./notebooks/02_deeplearning) |
 | 3 | VAE | 无 |
 | 4 | GAN | 无 |
 | 5 | Diffusion | 无 |
