@@ -10,19 +10,20 @@ O’Reilly 出版图书 《Generative Deep Learning: Teaching Machines to Paint,
 ## 🪶 课程列表
 
 以下是本书的章节结构概览：
-| 序号 | 内容 | 参考代码 |
-|:----:|:----:|:----:|
-| 1 | AIGC概述                | 无 |
-| 2 | 深度学习与概率论基础      | [deeplearning](./notebooks/02_deeplearning) |
-| 3 | VAE                     | [vea](./notebooks/03_vae) |
-| 4 | GAN                     | [gan](./notebooks/04_gan)  |
-| 5 | Diffusion               | [diffusion](./notebooks/08_diffusion)  |
-| 6 | 自回归模型               | [autoregressive](./notebooks/05_autoregressive)  |
-| 7 | 大语言模型               | [transformer](./notebooks/09_transformer)  |
-| 8 | 多模态大语言模型          | 无 |
-| 9 | 视觉生成模型             | 无 |
-| 10 | AIGC模型的安全与伦理问题 | 无 |
-| 11 | 课程项目展示与评估       | 无 |
+
+| 序号 | 内容 | 参考代码 | 参考PPT |
+|:----:|:----:|:----:|:----:|
+| 1 | AIGC概述 | 无 | [PPT](./ppt/) |
+| 2 | 深度学习与概率论基础 | [deeplearning](./notebooks/02_deeplearning) | [PPT](./ppt/) |
+| 3 | VAE | [vae](./notebooks/03_vae) | [PPT](./ppt/) |
+| 4 | GAN | [gan](./notebooks/04_gan) | [PPT](./ppt/) |
+| 5 | Diffusion | [diffusion](./notebooks/08_diffusion) | [PPT](./ppt/) |
+| 6 | 自回归模型 | [autoregressive](./notebooks/05_autoregressive) | [PPT](./ppt/) |
+| 7 | 大语言模型 | [transformer](./notebooks/09_transformer) | [PPT](./ppt/) |
+| 8 | 多模态大语言模型 | 无 | [PPT](./ppt/) |
+| 9 | 视觉生成模型 | 无 | [PPT](./ppt/) |
+| 10 | AIGC模型的安全与伦理问题 | 无 | [PPT](./ppt/) |
+| 11 | 课程项目展示与评估 | 无 | [PPT](./ppt/) |
 
 ## 🚀 快速开始
 
