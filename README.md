@@ -14,7 +14,7 @@ O’Reilly 出版图书 《Generative Deep Learning: Teaching Machines to Paint,
 | 序号 | 内容 | 参考代码 | 参考PPT |
 |:----:|:----:|:----:|:----:|
 | 1 | AIGC概述 | 无 | [PPT](./ppt/Lesson1.pdf) |
-| 2 | 深度学习与概率论基础 | [deeplearning](./notebooks/02_deeplearning) | [PPT](./ppt/) |
+| 2 | 深度学习与概率论基础 | [deeplearning](./notebooks/02_deeplearning) | [PPT](./ppt/Lesson2.pdf) |
 | 3 | VAE | [vae](./notebooks/03_vae) | [PPT](./ppt/) |
 | 4 | GAN | [gan](./notebooks/04_gan) | [PPT](./ppt/) |
 | 5 | Diffusion | [diffusion](./notebooks/08_diffusion) | [PPT](./ppt/) |
