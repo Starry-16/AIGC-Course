@@ -18,8 +18,8 @@ O’Reilly 出版图书 《Generative Deep Learning: Teaching Machines to Paint,
 | 3 | VAE | [vae](./notebooks/03_vae) | [PPT](./ppt/Lesson3.pdf) |
 | 4 | GAN | [gan](./notebooks/04_gan) | [PPT](./ppt/Lesson4.pdf) |
 | 5 | Diffusion | [diffusion](./notebooks/08_diffusion) | [PPT](./ppt/Lesson5&6.pdf) |
-| 6 | 自回归模型 | [autoregressive](./notebooks/05_autoregressive) | [PPT](./ppt/Lesson5&6.pdf) |
-| 7 | 大语言模型 | [transformer](./notebooks/09_transformer) | [PPT](./ppt/) |
+| 6 | 自回归模型 | [autoregressive](./notebooks/05_autoregressive) | [PPT1](./ppt/Lesson7-AR.pdf) [PPT2](./ppt/Lesson8-AR.pdf) |
+| 7 | 大语言模型 | [transformer](./notebooks/09_transformer) | [PPT](./ppt/Lesson9&10-LLM.pdf) |
 | 8 | 多模态大语言模型 | 无 | [PPT](./ppt/) |
 | 9 | 视觉生成模型 | 无 | [PPT](./ppt/) |
 | 10 | AIGC模型的安全与伦理问题 | 无 | [PPT](./ppt/) |
